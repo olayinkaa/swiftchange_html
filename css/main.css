@@ -1,0 +1,248 @@
+body {
+        font-family: 'Roboto', sans-serif;
+}
+
+.brand-logo img {
+        margin-top:5px;
+        height:55px;
+}
+
+.collection-font {
+
+    font-size: 20px;
+}
+.collection-fonts {
+
+        font-size: 1.1rem;
+    }
+    
+/* animation */
+
+.animated {
+        -webkit-animation-duration: 2s;
+        animation-duration: 2s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+
+
+.portfolio-menu {
+
+        text-align: center;
+}
+
+.portfolio-menu ul li{
+
+                display:inline-block;
+                margin-top:20px;
+}
+
+li.active {
+
+        background: red;
+}
+/* navigation*/
+
+.nav {
+      
+        background: rgba(0, 0, 0, 0.9);
+       
+       
+}
+
+nav li a {
+        transition-property:all;
+        transition-duration: 3s;
+        transition-timing-function: ease;
+}
+nav li a:hover {
+
+                background: #26a69a;
+                color:#fff;
+}
+
+
+/* footer section */
+
+footer .section-follow a {
+
+                margin-right:10px;
+}
+
+footer .section-follow a {
+
+        margin-right:10px;
+        margin-bottom: 5px;
+}
+
+.section-follow a .fa-facebook {
+
+        color:blue;
+}
+
+.section-follow a .fa-whatsapp {
+
+        color:green;
+}
+.section-follow a .fa-twitter {
+
+        color: #00aced;
+}
+
+
+/* comment section */
+
+
+/* blog page sidebar */
+.blog-sidebar {
+
+        margin-top:55px;
+}
+
+.blog-sidebar .tags a {
+
+        margin:15px 0 5px 0;
+}
+
+.blog-sidebar .social a {
+
+                margin-right:20px;
+}
+
+.blog-sidebar .social a .fa-facebook {
+
+        color:blue;
+}
+.blog-sidebar .social a .fa-whatsapp {
+
+        color:green;
+}
+
+.blog-sidebar .social a .fa-instagram {
+
+        color: #8a3ab9; 
+}
+
+.blog-sidebar .social a .fa-twitter {
+
+        color: #00aced;
+}
+.collection.with-header {
+
+                margin-top:25px;
+} 
+
+/* feature shadow */
+
+.features_shadow{	
+        padding: 10px;
+        }
+        .features_shadow:hover{
+                        -webkit-box-shadow: 1px 2px 2px 4px #004d40;
+        -moz-box-shadow: 1px 2px 2px 4px #004d40;
+        box-shadow: 1px 2px 2px 4px #004d40;
+        }
+
+/*  */
+
+.row.heigh img{
+
+                height:300px;
+                margin-bottom: 10px;
+}
+
+
+/* team start*/
+
+.team-header {
+        background: #D34346;
+        border-left: 8px solid #C62F31;
+        }
+        .team-header h2{
+        margin: 0;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 15px;
+        }
+        .team {
+        background: #efefef;
+        }
+        /*--flexisel--*/
+       
+        #flexiselDemo1 {
+                display: none;
+        }
+        .nbs-flexisel-container {
+                position: relative;
+                max-width: 100%;
+        }
+        .nbs-flexisel-ul {
+                position: relative;
+                width: 9999px;
+                margin: 0px;
+                padding: 0px;
+                list-style-type: none;
+                text-align: center;
+        }
+        .nbs-flexisel-inner {
+                overflow: hidden;
+                width:90%;
+                margin: 50px auto;
+        }
+        .nbs-flexisel-item {
+                float: left;
+                margin: 0;
+                padding: 0px;
+                cursor: pointer;
+                position: relative;
+                line-height: 0px;
+        }
+        .nbs-flexisel-item > img {
+                cursor: pointer;
+                position: relative;
+        }
+        /*---- Navigation ---*/
+        .nbs-flexisel-nav-left, .nbs-flexisel-nav-right {
+                width:40px;
+                height:60px;
+                position: absolute;
+                cursor: pointer;
+                z-index: 100;
+        }
+        .nbs-flexisel-nav-left {
+                left: 0px;
+                background: url(../images/12.png) no-repeat 0px 0px;
+        }
+        .nbs-flexisel-nav-right {
+                right: 0px;
+                background: url(../images/13.png) no-repeat 0px 0px;
+        }
+        /*--flexisel--*/
+        .team-grid{
+        background:#f7f7f7;
+        margin:0 13px;
+        height: 100%;
+        padding:13px 13px 0px 13px;
+        }
+        .team-grid h3{
+        color:#212121;
+        margin:13px 0;
+        font-size:18px;
+        font-weight:600;
+        }
+        .team-grid p{
+        color:#D34346;
+        margin:0 0 25px 0;
+        font-size:14px;
+        }
+        .team-grid img {
+        width: 100%;
+
+        }
+/* team end */
+
+.parallax-container {
+        height: 500px;
+      }
+        
